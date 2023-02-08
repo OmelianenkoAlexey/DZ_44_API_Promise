@@ -72,7 +72,6 @@ button.addEventListener("click", () => {
                         })
                     })
             })
-
         })
         .catch((error) => {
             alert(`Ошибка ${error.status}. Введите от 1 до 100.`)
